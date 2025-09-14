@@ -1,2 +1,42 @@
-# Econometric-analysis-of-Trade-FDI-Growth-and-Industrial-Value-Added-in-R
-Econometric analysis of Trade, FDI, Growth, and Industrial Value Added using simulated data in R
+# 📊 Econometric Analysis: Trade, FDI, Growth, and Industrial Value Added
+
+**Author:** Wesal Megahed  
+**Date:** 2025-09-14  
+
+This repository contains an RMarkdown analysis of the relationship between trade openness (OT), foreign direct investment (FDI), per capita GDP (PGDP), savings (S), globalization (GL), and industrial value added (AI).  
+
+## Objectives
+- Simulate economic indicators (1990–2020).
+- Run correlation, unit root, and regression analysis.
+- Perform cointegration tests (Johansen).
+- Check diagnostics & robustness.
+- Visualize results (plots, heatmaps, animated GIF).
+
+## Files
+- `econometric_analysis.Rmd` → main analysis code.
+- `econometric_analysis.md` → GitHub-friendly rendered version.
+- `growth.gif` → animated time-series plot.
+
+## How to Reproduce
+Clone the repo and run in R with required packages:
+
+```r
+install.packages(c("tidyverse", "tseries", "urca", "vars", 
+                   "GGally", "stargazer", "lmtest", 
+                   "strucchange", "psych", "reshape2", 
+                   "broom", "gganimate", "gifski"))
+
+### Scatterplot Matrix
+![Scatterplot Matrix](images/scatterplot_matrix.png)
+
+### Correlation Heatmap
+![Correlation Heatmap](images/correlation_heatmap.png)
+
+### Regression Coefficients
+![Regression Coefficients](images/regression_coeffs.png)
+
+### Time-Series Trends
+![Time Series](images/time_series.png)
+
+### Animated Growth
+![Growth Animation](growth.gif)

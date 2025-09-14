@@ -23,11 +23,11 @@ This repository contains an RMarkdown analysis of the relationship between trade
 
 
 ### Scatterplot Matrix
-![Scatterplot Matrix](images/scatterplot_matrix.png)
+![Scatterplot Matrix](scatterplot_matrix.png)
 
 
 ### Time-Series Trends
-![Time Series](images/time_series.png)
+![Time Series](time_series.png)
 
 ### Animated Growth
 ![Growth Animation](growth.gif)

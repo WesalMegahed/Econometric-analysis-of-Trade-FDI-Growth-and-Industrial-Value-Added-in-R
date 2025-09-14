@@ -17,26 +17,14 @@ This repository contains an RMarkdown analysis of the relationship between trade
 - `econometric_analysis.md` → GitHub-friendly rendered version.
 - `growth.gif` → animated time-series plot.
 
-## How to Reproduce
-Clone the repo and run in R with required packages:
 
-```r
-install.packages(c("tidyverse", "tseries", "urca", "vars", 
-                   "GGally", "stargazer", "lmtest", 
-                   "strucchange", "psych", "reshape2", 
-                   "broom", "gganimate", "gifski"))
+
 
 ### Scatterplot Matrix
-![Scatterplot Matrix](images/scatterplot_matrix.png)
-
-### Correlation Heatmap
-![Correlation Heatmap](images/correlation_heatmap.png)
-
-### Regression Coefficients
-![Regression Coefficients](images/regression_coeffs.png)
+![Scatterplot Matrix](scatterplot_matrix.png)
 
 ### Time-Series Trends
-![Time Series](images/time_series.png)
+![Time Series](Time_Series_trends.png)
 
 ### Animated Growth
 ![Growth Animation](growth.gif)
